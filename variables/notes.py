@@ -1,9 +1,8 @@
-# Elizabeth Gutierrez, Variable
+# Elizabeth Gutierrez, Variables Notes
 
-subject = input("What's your favorite subject: ")
-
+subject = input("What is your name:")
+subject = (Biology)
 small_number = 4
 
-name =input("What is your name: " )
 
-print(name, "really likes", subject)
+
