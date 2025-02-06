@@ -1,3 +1,4 @@
+# Elizabeth Gutierrez, variables practice python
 #include <stdio.h>
 
 char name[] = "Elizabeth";
@@ -20,5 +21,3 @@ int number[] = 15;
 
 char name[] = "Biology";
 
-int main(void){
-    printf("Your name %s. # between 1-10%d. # between 100-1000%f. For breakfast%s. Favorite color%d. School name%f. Year%s. Eye color%d. Age%s. Favorite subject%d. \n", name, number, big number, name, name, name, bigger number, name, number, name);
