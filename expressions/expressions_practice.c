@@ -1,9 +1,9 @@
 // Elizabeth Gutierrez, Expression Practice C
 #include <stdio.h>
 #include <math.h>
-//float x = pow(2,2);
-//float equation = 5*7+11/(5-x);
-// + - * / 
+printf("Enter a number");
+scanf("%d", variable);
+
 float expression = 5*pow(7, 2)/4;
 int main(void){
 float z = 7-24/8*4+6;
@@ -16,7 +16,7 @@ float m = (3*5*2/15)-(5-2*);
 float n = (1*4/2*+3*3)-2*5/4;
 float b = (22/2-2.5)+(4-6/6);
 
-printf("%f", z);
+
 
     return 0;
 
