@@ -4,25 +4,21 @@
 //float x = pow(2,2);
 //float equation = 5*7+11/(5-x);
 // + - * / 
-int num = 12;
-float x = int num;
-int num = 1;
-float x = 18/3-7+2*5;
-int num = 9;
-float x = 6*4/12+72/8-9;
-int num = 2;
-float x = (17-6/2)(pow)(5, 2)+4*3;
-int num = 26;
-float x = -2*(1*4-2/2)+(6+2-3);
-int num = -1;
-float x = -1*((3-4*7)/5)-2*24/6;
-int num = -3;
-float x = (3*5**/15)-(5-2**);
-int num = 4;
-float x = (1*****5**/15)-(5-2**);
-int num = 23;
-float x = (22/2-2.5)+(4-6/6)*;
-int num = 10;
+float expression = 5*pow(7, 2)/4;
+int main(void){
+float z = 7-24/8*4+6;
+float y = 18/3-7+2*5;
+float f = 6*pow(72, 4)/120/8-9;
+float k = 4*pow(17, 6)/2;
+float a = -2*pow(1*pow(4-2/2))+(6+2-3);
+float l = -1*pow(3-4*7)/5-2*24/6;
+float m = (3*5*2/15)-(5-2*);
+float n = (1*4/2*+3*3)-2*5/4;
+float b = (22/2-2.5)+(4-6/6);
+
+printf("%f", z);
+
+    return 0;
 
 }
 
