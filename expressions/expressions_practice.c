@@ -1,11 +1,11 @@
 // Elizabeth Gutierrez, Expression Practice C
 #include <stdio.h>
 #include <math.h>
+int main(void){
 printf("Enter a number");
 scanf("%d", variable);
 
 float expression = 5*pow(7, 2)/4;
-int main(void){
 float z = 7-24/8*4+6;
 float y = 18/3-7+2*5;
 float f = 6*pow(72, 4)/120/8-9;
