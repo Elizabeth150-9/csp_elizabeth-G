@@ -4,6 +4,7 @@
 int main(void){
 printf("Enter a number");
 scanf("%d", variable);
+char = "Welcome to my program. ";
 
 float expression = 5*pow(7, 2)/4;
 float z = 7-24/8*4+6;
@@ -15,9 +16,6 @@ float l = -1*pow(3-4*7)/5-2*24/6;
 float m = (3*5*2/15)-(5-2*);
 float n = (1*4/2*+3*3)-2*5/4;
 float b = (22/2-2.5)+(4-6/6);
-
-
-
     return 0;
 
 }

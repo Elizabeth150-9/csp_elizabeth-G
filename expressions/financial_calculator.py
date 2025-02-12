@@ -17,7 +17,7 @@ savings = float(input("What are your savings\n"))
 # calculate spending as income-savings-rent-utilities-groceries-transportation (variable)
 spending = float(input("What are your spendings\n"))
 # calculate percent income of rent (rent/income *100) (variable)
-f = rent/income *100
+l = rent/income *100
 # calculate percent income of utilities (utilities/income *100) (variable)
 p = utilities/income *100
 # calculate percent income of groceries (groceries/income *100) (variable)
@@ -27,13 +27,14 @@ c = transportation/income *100
 # calculate percent income of spending (spending/income *100) (variable)
 k = spending/income *100
 # Your rent is $XX.XX which is XX% of your income. (Print)
-
+Print()
 # Your utilities is $XX.XX which is XX% of your income. (Print)
-
+Print()
 # Your groceries is $XX.XX which is XX% of your income. (Print)
-
+Print()
 # Your transportation is $XX.XX which is XX% of your income. (Print)
-
+Print()
 # Your savings is $XX.XX which is XX% of your income. (Print)
-
+Print()
 # Your spending is $XX.XX which is XX% of your income. (Print)
+Print()
