@@ -1,20 +1,42 @@
 # Elizabeth Gutierrez, variables practice python
 
-name = input("Elizabeth")
+name = "Elizabeth"
 
-small = input(2)
+print(name)
 
-number = input(52)
+numbr = "2"
 
-breakfast = input("shake")
+print(numbr)
 
-color = input("Green")
+number = "52"
 
-school = input("UCAS")
+print(number)
 
-year = input(2025)
+breakfast = "shake"
 
-age = input(15)
+print(breakfast)
 
-subject = input("Biology")
+color = "Green"
+
+print(color)
+
+school = "UCAS"
+
+print(school)
+
+year = "2025"
+
+print(year)
+
+eyes = "Green"
+
+print(eyes)
+
+age = "15"
+
+print(age)
+
+subject = "Biology"
+
+print(subject)
 
