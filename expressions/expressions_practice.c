@@ -2,20 +2,24 @@
 #include <stdio.h>
 #include <math.h>
 int main(void){
-printf("Enter a number");
-scanf("%d", variable);
-char = "Welcome to my program. ";
-
-float expression = 5*pow(7, 2)/4;
-float z = 7-24/8*4+6;
-float y = 18/3-7+2*5;
-float f = 6*pow(72, 4)/120/8-9;
-float k = 4*pow(17, 6)/2;
-float a = -2*pow(1*pow(4-2/2))+(6+2-3);
-float l = -1*pow(3-4*7)/5-2*24/6;
-float m = (3*5*2/15)-(5-2*);
-float n = (1*4/2*+3*3)-2*5/4;
-float b = (22/2-2.5)+(4-6/6);
+int numbrOne = 7-24/8*4+6;
+printf("%d\n", numbrOne);
+int numbrTwo = 18/3-7+2*5;
+printf("%d\n", numbrTwo);
+int numbrThree = 6*pow(72, 4)/120/8-9;
+printf("%d\n", numbrThree);
+int numbrFour = 4*pow(17, 6)/2;
+printf("%d\n", numbrFour);
+int numbrFive = -2*pow(1*pow(4-2/2))+(6+2-3);
+printf("%d\n", numbrFive);
+int numbrSix = -1*pow(3-4*7)/5-2*24/6;
+printf("%d\n", numbrSix);
+int numbrSeven = (3*5*2/15)-(5-2*);
+printf("%d\n", numbrSeven);
+int numbrEight = (1*4/2*+3*3)-2*5/4;
+printf("%d\n", numbrEight);
+int numbrNine = (22/2-2.5)+(4-6/6);
+printf("%d\n", numbrNine);
     return 0;
 
 }
