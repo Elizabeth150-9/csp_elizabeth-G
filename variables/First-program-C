@@ -1,4 +1,4 @@
-// Elizabeth Gutierrez, First Program Python
+// Elizabeth Gutierrez, First Program C
 #include <stdio.h>
 
 int main(void){
