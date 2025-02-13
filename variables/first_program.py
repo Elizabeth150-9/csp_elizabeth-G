@@ -1,7 +1,7 @@
 # Elizabeth Gutierrez, First Program Python
 
-subject = input("Hello World")
+name = input("What is your name?")
 
-input("Hello World")
+print("Hello,", name)
   
 
