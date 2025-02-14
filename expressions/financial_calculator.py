@@ -1,6 +1,7 @@
 # Elizabeth Gutierrez, Financial Calculator python
 
 
+
 # print statement that welcomes user and tells what the program does
 subject = input("Welcome to my program:")
 # ask what their income is (variable an input)
@@ -18,24 +19,26 @@ savings = float(input("What are your savings\n"))
 # calculate spending as income-savings-rent-utilities-groceries-transportation (variable)
 spending = float(input("What are your spendings\n"))
 # calculate percent income of rent (rent/income *100) (variable)
-rent = ("%d", 200/2000 *100)
+percent_rent = rent/income *100
 # calculate percent income of utilities (utilities/income *100) (variable)
-utilities = ("%d", 205/2000 *100)
+percent_utilities = utilities/income *100
 # calculate percent income of groceries (groceries/income *100) (variable)
-groceries = ("%d", 390/2000 *100)
+percent_groceries = groceries/income *100
 # calculate percent income of transportation (transportation/income *100) (variable)
-transportation = ("%d", 101/2000 *100)
+percent_transportation = transportation/income *100
+# calculate percent of savings (savings/income *100) (variable)
+percent_savings = savings/income *100
 # calculate percent income of spending (spending/income *100) (variable)
-spending = ("%d", 90/2000 *100)
+percent_spending = spending/income *100
 # Your rent is $XX.XX which is XX% of your income. (Print)
-rents = input("Your rent is $200 which is 10% of your income:\n")
+print = input("Your rent is (percent_utilities) which is 10% of your income:\n")
 # Your utilities is $XX.XX which is XX% of your income. (Print)
-utility = input("Your utilities cost $205 which is 10.25% of your income:\n")
+print = input("Your utilities cost (percent_utilities) which is 10.25% of your income:\n")
 # Your groceries is $XX.XX which is XX% of your income. (Print)
-grocery = input("Your groceries cost $390 which is 19.5% of your income:\n")
+print = input("Your groceries cost (percent_groceries) which is 19.5% of your income:\n")
 # Your transportation is $XX.XX which is XX% of your income. (Print)
-transport = input("Your transportation costs $80 which is 4% of your income:\n")
+print = input("Your transportation costs (percent_transportation) which is 4% of your income:\n")
 # Your savings is $XX.XX which is XX% of your income. (Print)
-saving = input("Your savings are $1,030 which is 51.5% of your income:\n")
+print = input("Your savings are (percent_savings) which is 51.5% of your income:\n")
 # Your spending is $XX.XX which is XX% of your income. (Print)
-spending = input("Your spendings are $95 which is 0.75% of your income:\n")
+print = input("Your spendings are (percent_spendings) which is 0.75% of your income:\n")
