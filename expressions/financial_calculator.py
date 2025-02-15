@@ -1,7 +1,5 @@
 # Elizabeth Gutierrez, Financial Calculator python
 
-
-
 # print statement that welcomes user and tells what the program does
 subject = input("Welcome to my program:")
 # ask what their income is (variable an input)
@@ -31,14 +29,14 @@ percent_savings = savings/income *100
 # calculate percent income of spending (spending/income *100) (variable)
 percent_spending = spending/income *100
 # Your rent is $XX.XX which is XX% of your income. (Print)
-print = input("Your rent costs", percent_rent, "which is", percent_utilities, "% of your income:\n")
+print("Your rent costs", rent, "which is", percent_rent, "% of your income:\n")
 # Your utilities is $XX.XX which is XX% of your income. (Print)
-print = input("Your utilities cost", percent_utilities, "which is", percent_utilities, "% of your income:\n")
+print("Your utilities cost", utilities, "which is", percent_utilities, "% of your income:\n")
 # Your groceries is $XX.XX which is XX% of your income. (Print)
-print = input("Your groceries cost", percent_groceries, "which is", percent_groceries, "% of your income:\n")
+print("Your groceries cost", groceries, "which is", percent_groceries, "% of your income:\n")
 # Your transportation is $XX.XX which is XX% of your income. (Print)
-print = input("Your transportation costs", transportation, "which is", percent_transportation, "% of your income:\n")
-# Your savings is $XX.XX which is XX% of your income. (Print)
-print = input("Your savings cost", savings, "which is", percent_savings, "% of your income:\n")
+print("Your transportation costs", transportation, "which is", percent_transportation, "% of your income:\n")
+# Your savings are $XX.XX which is XX% of your income. (Print)
+print("Your savings cost", savings, "which is", percent_savings, "% of your income:\n")
 # Your spending is $XX.XX which is XX% of your income. (Print)
-print = input("Your spendings cost", spending, "which is", percent_spending, "% of your income:\n")
+print("Your spendings cost", spending, "which is", percent_spending, "% of your income:\n")
