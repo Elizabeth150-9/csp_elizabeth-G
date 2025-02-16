@@ -2,12 +2,24 @@
 #include <stdio.h>
 #include <string.h>
 
-char subject[99];
+char subject[50];
+char name[50];
+char verb[50];
+char noun[50];
 
 int main(){
-    printf("Welcome to my silly sentences program in C. \n");
-   scanf("%s", subject);
-   std::string str = "";
-   if (str.empty())
+    printf("Welcome to my silly sentences program in C! \n");
+    scanf("%s", subject);
+
+    printf("Enter a name: \n");
+    scanf("%s", name);
+
+    printf("Enter a verb: \n");
+    scanf("%s", verb);
+
+    printf("Enter a noun: \n");
+    scanf("%s", noun);
+
+printf("%s likes to %s with my %s", name, verb, noun);
    return 0;
    }
