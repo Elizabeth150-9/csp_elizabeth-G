@@ -1,8 +1,18 @@
 // Elizabeth Gutierrez, Financial Calculator C
 #include <stdio.h>
 
+char welcome[19];
+char income[50];
+char rent[50];
+char utilities[50];
+char groceries[50];
+char transportation[50];
+char savings[50];
+char spendings[50];
+
 int main(void){
-   printf("Welcome to my program.");
+   printf("Welcome to my program.\n");
+   scanf("%s", income);
    
    printf("How much is your income?\n");
    scanf("%s", income);
@@ -38,16 +48,16 @@ int main(void){
    int savings = (savings/income *100);
 
 // Your rent is $XX.XX which is XX% of your income. (Print)
-   printf("Your rent costs", scanf("%s", rent), "which is", int rent, "% of your income:\n");
+   printf("Your rent costs", "%s", rent, "which is", int rent, "% of your income:\n");
 // Your utilities is $XX.XX which is XX% of your income. (Print)
-   printf("Your utilities cost", scanf("%s", utilities), "which is", int utilities, "% of your income:\n");
+   printf("Your utilities cost", "%s", utilities, "which is", int utilities, "% of your income:\n");
 // Your groceries is $XX.XX which is XX% of your income. (Print)
-   printf("Your groceries cost", scanf("%s", groceries), "which is", int groceries, "% of your income:\n");
+   printf("Your groceries cost", "%s", groceries, "which is", int groceries, "% of your income:\n");
 // Your transportation is $XX.XX which is XX% of your income. (Print)
-   printf("Your transportation costs", scanf("%s", transportation), "which is", int transportation, "% of your income:\n");
+   printf("Your transportation costs", "%s", transportation, "which is", int transportation, "% of your income:\n");
 // Your savings is $XX.XX which is XX% of your income. (Print)
-   printf("Your savings are", scanf("%s", savings), "which is", int savings, "% of your income:\n");
+   printf("Your savings are", "%s", savings, "which is", int savings, "% of your income:\n");
 // Your spending is $XX.XX which is XX% of your income. (Print)
-   printf("Your spendings cost", scanf("%s", spendings), "which is", int spendings, "% of your income:\n")
+   printf("Your spendings cost", "%s", spendings, "which is", int spendings, "% of your income:\n")
   return 0;
 }
