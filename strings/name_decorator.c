@@ -1,4 +1,4 @@
-// Elizabeth Gutierrez, Silly sentences C
+// Elizabeth Gutierrez, Name Decorator C
 #include <stdio.h>
 
 char subject[19];

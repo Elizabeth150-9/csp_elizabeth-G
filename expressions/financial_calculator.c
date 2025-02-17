@@ -1,63 +1,43 @@
 // Elizabeth Gutierrez, Financial Calculator C
 #include <stdio.h>
 
-char welcome[19];
-char income[50];
-char rent[50];
-char utilities[50];
-char groceries[50];
-char transportation[50];
-char savings[50];
-char spendings[50];
+float income;
+float rent;
+float utilities;
+float groceries;
+float transportation;
+float savings;
+float spendings;
 
 int main(void){
-   printf("Welcome to my program.\n");
-   scanf("%s", income);
-   
-   printf("How much is your income?\n");
-   scanf("%s", income);
- 
-   printf("How much is your rent?\n");
-   scanf("%s", rent);
-
-   printf("How much are your utilities?\n");
-   scanf("%s", utilities);
-
-   printf("How much are you groceries?\n");
-   scanf("%s", groceries);
-
+   printf("Welcome to my financial calculator in c program! \n");
+   printf("How much is your monthly income: \n");
+   scanf("%f", &income);
+   printf("How much is your monthly rent?\n");
+   scanf("%f", &rent);
+   printf("How much are your utilities monthly?\n");
+   scanf("%f", &utilities);
+   printf("How much are you groceries monthly?\n");
+   scanf("%f", &groceries);
    printf("How much is your transportation?\n");
-   scanf("%s", transportation);
-
+   scanf("%f", &transportation);
    printf("How much are your savings?\n");
-   scanf("%s", savings);
-
+   scanf("%f", &savings);
    printf("How much are your spendings?\n");
-   scanf("%s", spendings);
-
-   int rent = (rent/income *100);
-
-   int utilities = (utilities/income *100);
-
-   int groceries = (groceries/income *100);
-
-   int transportation = (transportation/income *100);
-
-   int spendings = (spendings/income *100);
-
-   int savings = (savings/income *100);
-
-// Your rent is $XX.XX which is XX% of your income. (Print)
-   printf("Your rent costs", "%s", rent, "which is", int rent, "% of your income:\n");
-// Your utilities is $XX.XX which is XX% of your income. (Print)
-   printf("Your utilities cost", "%s", utilities, "which is", int utilities, "% of your income:\n");
-// Your groceries is $XX.XX which is XX% of your income. (Print)
-   printf("Your groceries cost", "%s", groceries, "which is", int groceries, "% of your income:\n");
-// Your transportation is $XX.XX which is XX% of your income. (Print)
-   printf("Your transportation costs", "%s", transportation, "which is", int transportation, "% of your income:\n");
-// Your savings is $XX.XX which is XX% of your income. (Print)
-   printf("Your savings are", "%s", savings, "which is", int savings, "% of your income:\n");
-// Your spending is $XX.XX which is XX% of your income. (Print)
-   printf("Your spendings cost", "%s", spendings, "which is", int spendings, "% of your income:\n")
+   scanf("%f", &spendings);
+   float savings = income*.1;
+   float spendings = income-savings-rent-utilities-groceries-transportation;
+   float percent_rent = rent/income *100;
+   float percent_utilities = utilities/income *100;
+   float percent_groceries = groceries/income *100;
+   float percent_transportation = transportation/income *100;
+   float percent_spendings = spendings/income *100;
+   float percent_savings = savings/income *100;
+   printf("Your rent costs %.2f which is %.2f percent of your income\n", rent, percent_rent);
+   printf("Your utilities cost %.2f which is %.2f percent of your income\n", utilities, percent_utilities);
+   printf("Your groceries cost %.2f which is %.2f percent of your income\n", groceries, percent_groceries);
+   printf("Your transportation costs %.2f which is %.2f percent of your income\n", transportation, percent_transportation);
+   printf("Your savings are %.2f which is %.2f percent of your income\n", savings, percent_savings);
+   printf("Your spendings cost %.2f which is %.2f percent of your income\n", spendings, percent_spendings);
   return 0;
 }
