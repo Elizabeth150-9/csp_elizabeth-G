@@ -1,15 +1,17 @@
 // Elizabeth Gutierrez, First Program C
 #include <stdio.h>
 
-char name;
-char hobby;
+char name[90];
+int food;
+float goodbye;
 
 int main(void){
-    printf("What is your name? \n");
-    scanf("%s\n", name);
-    printf(" likes to play the guitar \n");
-    scanf("%s\n", hobby);
-    
+    printf("Hi, what is your name? \n");
+    scanf("%s", name);
+    printf("Hello what is your favourite food? \n");
+    scanf("%d", food);
+    printf("Goodbye! \n");
+    scanf("%f", goodbye);
     return 0;
 
 }

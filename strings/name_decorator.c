@@ -1,19 +1,18 @@
-// Elizabeth Gutierrez, Silly sentences C
+// Elizabeth Gutierrez, Name Decorator C
 #include <stdio.h>
-#include <string.h>
 
 char subject[19];
-char sub[Elizabeth];
 
 int main(void){
-    printf("What is your name?\n");
-    scanf("%s", Elizabeth);
+    printf("Name:\n");
+    scanf("%s", subject);
     char one[] = ":):):)";
     char two[] = "Elizabeth";
     char three[] = ":):):)";
-    printf("%s\n", one);
-    strcat(one, two);
-    printf("%f\n", two);
-    strcat(two, three);
+    printf("%s", one);
+    int strcat(one, two);
+    printf("%s", two);
+    int strcat(two, three);
+    printf("%s", three);
     return 0;
 }
