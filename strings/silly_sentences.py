@@ -1,6 +1,6 @@
 # Elizabeth Gutierrez, silly sentences python
  
-subject = (input("Welcome to my silly sentence in python program: "))
+print("Welcome to my silly sentence in python program: ")
 
 name = (input("Enter a name: \n"))
 verb = (input("Enter a verb: \n"))
