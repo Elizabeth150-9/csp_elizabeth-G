@@ -12,10 +12,8 @@ utilities = float(input("How much are your utilities\n"))
 groceries = float(input("How much are your groceries\n"))
 # ask what their transportation is (variable an input)
 transportation = float(input("How much is your transportation\n"))
-# calculate savings as 10% of income (income*.1) (variable)
-savings = float(input("What are your savings\n"))
 # calculate spending as income-savings-rent-utilities-groceries-transportation (variable)
-spending = float(rent + utilities + groceries + transportation + savings)
+spending = float(rent + utilities + groceries + transportation)
 print("your spendings are:")
 print(spending)
 # calculate percent income of rent (rent/income *100) (variable)
@@ -26,10 +24,9 @@ percent_utilities = utilities/income *100
 percent_groceries = groceries/income *100
 # calculate percent income of transportation (transportation/income *100) (variable)
 percent_transportation = transportation/income *100
-# calculate percent of savings (savings/income *100) (variable)
-percent_savings = savings/income *100
 # calculate percent income of spending (spending/income *100) (variable)
 percent_spending = spending/income *100
+percent_savings = float(spending + rent + utilities + groceries + transportation)
 # Your rent is $XX.XX which is XX% of your income. (Print)
 print("Your rent costs", rent, "which is", percent_rent, "% of your income:\n")
 # Your utilities is $XX.XX which is XX% of your income. (Print)
@@ -39,6 +36,6 @@ print("Your groceries cost", groceries, "which is", percent_groceries, "% of you
 # Your transportation is $XX.XX which is XX% of your income. (Print)
 print("Your transportation costs", transportation, "which is", percent_transportation, "% of your income:\n")
 # Your savings are $XX.XX which is XX% of your income. (Print)
-print("Your savings cost", savings, "which is", percent_savings, "% of your income:\n")
+print("Your savings are", percent_savings, "% of your income:\n")
 # Your spending is $XX.XX which is XX% of your income. (Print)
-print("Your spendings cost", spending, "which is", percent_spending, "% of your income:\n")
+print("Your spendings are", spending, "which is", percent_spending, "% of your income:\n")
