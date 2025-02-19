@@ -40,4 +40,4 @@ print(f"Your transportation costs {transportation} which is {percent_transportat
 # Your savings are $XX.XX which is XX% of your income. (Print)
 print(f"Your savings are {savings} which is {percent_savings: .2f} % of your income:\n")
 # Your spending is $XX.XX which is XX% of your income. (Print)
-print(f"Your spendings left are {spending} which is {percent_spending: .2f} % of your income:\n")
+print(f"Your money left to spend is {spending} which is {percent_spending: .2f} % of your income:\n")
