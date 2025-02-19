@@ -13,7 +13,7 @@ groceries = float(input("How much are your groceries\n"))
 # ask what their transportation is (variable an input)
 transportation = float(input("How much is your transportation\n"))
 # calculate spending as income-savings-rent-utilities-groceries-transportation (variable)
-savings = float(input())
+savings = income*.1
 spending = float(rent + utilities + groceries + transportation)
 print("your spendings are:")
 print(spending)
