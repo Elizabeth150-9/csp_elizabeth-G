@@ -9,8 +9,6 @@ char noun[50];
 
 int main(){
     printf("Welcome to my silly sentences program in C! \n");
-    scanf("%s", subject);
-
     printf("Enter a name: \n");
     scanf("%s", name);
 
