@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 
-char subject[50];
 char name[50];
 char verb[50];
 char noun[50];
