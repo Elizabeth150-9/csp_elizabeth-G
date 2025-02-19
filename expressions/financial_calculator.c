@@ -21,10 +21,6 @@ int main(void){
    scanf("%f", &groceries);
    printf("How much is your transportation?\n");
    scanf("%f", &transportation);
-   printf("How much are your savings?\n");
-   scanf("%f", &savings);
-   printf("How much are your spendings?\n");
-   scanf("%f", &spendings);
    float savings = income*.1;
    float spendings = income-savings-rent-utilities-groceries-transportation;
    float percent_rent = rent/income *100;
@@ -38,6 +34,6 @@ int main(void){
    printf("Your groceries cost %.2f which is %.2f percent of your income\n", groceries, percent_groceries);
    printf("Your transportation costs %.2f which is %.2f percent of your income\n", transportation, percent_transportation);
    printf("Your savings are %.2f which is %.2f percent of your income\n", savings, percent_savings);
-   printf("Your spendings cost %.2f which is %.2f percent of your income\n", spendings, percent_spendings);
+   printf("Your money left to spend is %.2f which is %.2f percent of your income\n", spendings, percent_spendings);
   return 0;
 }
