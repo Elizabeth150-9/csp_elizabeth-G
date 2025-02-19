@@ -10,9 +10,9 @@ int main(void){
     char second[] = "Elizabeth";
     char third[] = ":):):)";
     printf("%s", first);
-    int strcat(first, second);
+    scanf(first, second);
      printf("%s", second);
-     int strcat(second, third);
+     scanf(second, third);
      printf("%s", third);
     return 0;
 }
