@@ -39,4 +39,4 @@ print("Your transportation costs", transportation, "which is", percent_transport
 # Your savings are $XX.XX which is XX% of your income. (Print)
 print("Your savings are", savings, "which is", percent_savings, "% of your income:\n")
 # Your spending is $XX.XX which is XX% of your income. (Print)
-print("Your spendings are", spending, "which is", percent_spending, "% of your income:\n")
+print("Your spendings cost", spending, "which is", percent_spending, "% of your income:\n")
