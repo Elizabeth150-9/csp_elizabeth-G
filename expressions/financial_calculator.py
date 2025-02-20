@@ -14,9 +14,7 @@ groceries = float(input("How much are your groceries\n"))
 transportation = float(input("How much is your transportation\n"))
 # calculate spending as income-savings-rent-utilities-groceries-transportation (variable)
 savings = income*.1
-spending = float(rent + utilities + groceries + transportation)
-print("your spendings are:")
-print(spending)
+spending = float(income-rent-utilities-groceries-transportation-savings)
 # calculate percent income of rent (rent/income *100) (variable)
 percent_rent = rent/income *100
 # calculate percent income of utilities (utilities/income *100) (variable)
@@ -40,8 +38,4 @@ print(f"Your transportation costs {transportation} which is {percent_transportat
 # Your savings are $XX.XX which is XX% of your income. (Print)
 print(f"Your savings are {savings} which is {percent_savings: .2f} % of your income:\n")
 # Your spending is $XX.XX which is XX% of your income. (Print)
-<<<<<<< HEAD
-print("Your spendings cost", spending, "which is", percent_spending, "% of your income:\n")
-=======
-print(f"Your money left to spend is {spending} which is {percent_spending: .2f} % of your income:\n")
->>>>>>> 63d7837c445054dfc4964364092160cd3e38f070
+print(f"Your money leftover is {spending} which is {percent_spending: .2f} % of your income:\n")
