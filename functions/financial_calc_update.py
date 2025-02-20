@@ -3,6 +3,8 @@ def info(cost, income, type):
     percent = cost/income *100
     print(f"Your {type} is ${cost:.2f} which is {percent}% of your income.")
 
+def info()
+
 # print statement that welcomes user and tells what the program does
 print("Welcome to my financial calculator that will help you manage your monthly finances!:")
 # ask what their income is (variable an input)
