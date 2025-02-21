@@ -1,13 +1,13 @@
 # Elizabeth Gutierrez, Update hello world python
 
-name = input("What is your name?")
-print("Hello,", name)
+def hello(name):
+    return f"Hello {name}"
+print(hello(input("Give me a name: \n")))
+print(hello(input("Give me another name: \n")))
+print(hello(input("Give me another name: \n")))
+print(hello(input("Give me another name: \n")))
+print(hello(input("Give me one last name: \n")))
 
-def values(type):
-names = input("Give me five name. \n")
-print("")
-
-name = values("name")
 
 
 
