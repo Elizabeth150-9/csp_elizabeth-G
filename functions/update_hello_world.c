@@ -1,29 +1,32 @@
 // Elizabeth Gutierrez, Update Hello World C
 #include <stdio.h>
 
-char Hello[50];
-char name[50];
-
-void due(char Hello, char name){
-    printf("Hello, name");
+void hello(char *name) {
+    printf("Hello %s\n", name);
 }
-int main(void) {
+
+int main() {
+    char name[100];
+
     printf("Give me a name: \n");
     scanf("%s", name);
+    hello(name);
 
     printf("Give me another name: \n");
-    scanf("Hello", name);
+    scanf("%s", name);
+    hello(name);
 
     printf("Give me another name: \n");
-    scanf("Hello", name);
+    scanf("%s", name);
+    hello(name);
 
     printf("Give me another name: \n");
-    scanf("Hello", name);
+    scanf("%s", name);
+    hello(name);
 
     printf("Give me one last name: \n");
-    scanf("Hello", name);
+    scanf("%s", name);
+    hello(name);
 
     return 0;
 }
-
-
