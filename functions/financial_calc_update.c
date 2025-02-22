@@ -8,19 +8,19 @@ double values(char* type) {
   return amount;
 }
 
-void info(double cost, double income, char* type) {
+void info(double cost, double income, char* type){
   double percent = (cost/income) *100;
   printf("Your %s is $%.2f which is %.2f%% of your income.\n", type, cost, percent);
 }
 
-int main() {
+int main(){
   double income = values("income");
   double rent = values("rent");
   double utilities = values("utilities");
   double groceries = values("groceries");
   double transportation = values("transportation");
 
-  double savings = income *0.1;
+  double savings = income *.1;
   double spending = income-rent-utilities-groceries-transportation-savings;
 
   info(rent, income, "rent");
