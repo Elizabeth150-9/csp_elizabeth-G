@@ -3,7 +3,8 @@ def info(cost, income, type):
     percent = cost/income *100
     print(f"Your {type} is ${cost:.2f} which is {percent}% of your income.")
 
-def info()
+def questions(total):
+    
 
 # print statement that welcomes user and tells what the program does
 print("Welcome to my financial calculator that will help you manage your monthly finances!:")
@@ -17,10 +18,10 @@ utilities = float(input("How much are your utilities\n"))
 groceries = float(input("How much are your groceries\n"))
 # ask what their transportation is (variable an input)
 transportation = float(input("How much is your transportation\n"))
-# calculate spending as income-savings-rent-utilities-groceries-transportation (variable)
+
 savings = income*.1
 spending = income-rent-utilities-groceries-transportation-savings
-# calculate percent income of rent (rent/income *100) (variable)
+
 info(rent, income, "rent")
 info(utilities, income, "utilities")
 info(groceries, income, "groceries")
