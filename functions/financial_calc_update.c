@@ -1,7 +1,7 @@
 // Elizabeth Gutierrez, Financial Calculator C update
 #include <stdio.h>
 
-double values(char* type) {
+double values(char* type){
   double amount;
   printf("How much is your %s: \n", type);
   scanf("%lf", &amount);
