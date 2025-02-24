@@ -1,6 +1,6 @@
 # Elizabeth Gutierrez, Financial Calculator python update
 def values(type):
-    return input(f"How much is your {type}:\n")
+    return int(input(f"How much is your {type}:\n"))
 
 def info(cost, income, type):
     percent = cost/income *100
@@ -12,12 +12,13 @@ utilities = values("utilities")
 groceries = values("groceries")
 transportation = values("transportation")
 
-savings = income *1
-spending = income-rent-utilities-groceries-transportation-savings
+savings = income * .1
+spent = utilities+groceries+transportation+rent
+leftover = income-spent-savings
 
 info(rent, income, "rent")
 info(utilities, income, "utilities")
 info(groceries, income, "groceries")
 info(transportation, income, "transportation")
 info(savings, income, "savings")
-info(spending, income, "spending")
+info(leftover, income, "spending")
