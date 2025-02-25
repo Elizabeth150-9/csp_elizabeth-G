@@ -4,9 +4,9 @@ name = input("What is your name?:\n")
 # Having a tab/white space makes something inside of an if statement.
 if name == "Elizabeth":
     print("Elizabeth")
-    else: #happens if condition is false.
+else: 
         print(f"Hello {name}!")
-
+#happens if condition is false.
 #2. What do if statements do?
 # if statements checks a condition and it it is true, it will do a thing.
 if name == "Elizabeth": # <- this is the condition.
@@ -16,7 +16,7 @@ if name == "Elizabeth": # <- this is the condition.
 # A boolean statement is the part of conditional that is either true or false(true or false statement).
 if name == "Elizabeth": # <- This is the boolean statement(either true or false).
     print("Elizabeth")
-    else: 
+else: 
         print(f"Hello {name}!")
 
 #4. What do else statements do?
@@ -48,14 +48,14 @@ else: # <- always ends the conditional
 #=== Doesn't exist in python(only in C)
 #! This means not
 #7. What are the 3 logical operators?
-elif num <10 and num > 5: #And both booleans must be true.
+elif num < 10 and num > 5: #And both booleans must be true.
     print("This is a big single digit number")
 
-elif num <10 or num > 5: #or means one must be true.
+elif num < 10 or num > 5: #or means one must be true.
     print("This is a big single digit number")
 
 elif not num < 10: #Not changes it to check if false.
-    print("This is a big single digit number")
+    print("This is not a single digit number")
 
 #8. What are logical operators for?
 #Allows the code to handle more difficult question, increases complexity.
@@ -65,11 +65,11 @@ if num <10:
     if num ==8:
         print("This prints at 8")
     else:
-        print("The number is less thatn 10")
+        if num == 4:
+            print("There are only enough cookies left for me. . . sorry")
+        else:
+        print("The number is less than 10")
 else:
     print("The number is bigger than 10")
 
-#10. How do you write an if statement in C?
-#11. How do you write else statements in C?
-#12. How do you write elif/ else if statements in C?
-#13. How do you write the 3 logical operators in C?
+# you can nest as many conditionals as you want, but stop at three to not confuse it.
