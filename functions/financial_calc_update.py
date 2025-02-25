@@ -13,12 +13,11 @@ groceries = values("groceries")
 transportation = values("transportation")
 
 savings = income * .1
-spent = utilities+groceries+transportation+rent
-leftover = income-spent-savings
+spending = utilities+groceries+transportation+rent
 
 info(rent, income, "rent")
 info(utilities, income, "utilities")
 info(groceries, income, "groceries")
 info(transportation, income, "transportation")
 info(savings, income, "savings")
-info(leftover, income, "spending")
+info(spending, income, "spending")
