@@ -1,7 +1,6 @@
 // Elizabeth Gutierrez, Old Enough in C
 #include <stdio.h>
 #include <string.h>
-<<<<<<< HEAD
 
 char vote[] = "vote";
 char drive[] = "drive";
@@ -48,6 +47,3 @@ int main() {
     return 0;
 }
 
-=======
-char name[]= 
->>>>>>> 0d9360a0195fbc64745ea54fe853d60317c88bf0

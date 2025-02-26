@@ -63,23 +63,12 @@ else: # <- always ends the conditional
 #=== Doesn't exist in python(only in C)
 #! This means not
 #7. What are the 3 logical operators?
-<<<<<<< HEAD
 if num < 10 and num > 5: #And both booleans must be true.
       print("This is a big single digit number")
 elif num < 10 or num > 5: #or means one must be true.
       print("This is a big single digit number")
 elif not num < 10: #Not changes it to check if false.
       print("This is a big single digit number")
-=======
-elif num < 10 and num > 5: #And both booleans must be true.
-    print("This is a big single digit number")
-
-elif num < 10 or num > 5: #or means one must be true.
-    print("This is a big single digit number")
-
-elif not num < 10: #Not changes it to check if false.
-    print("This is not a single digit number")
->>>>>>> 0d9360a0195fbc64745ea54fe853d60317c88bf0
 
 #8. What are logical operators for?
 #Allows the code to handle more difficult question, increases complexity.
