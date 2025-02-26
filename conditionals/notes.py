@@ -2,19 +2,11 @@
 name = input("What is your name?:\n")
 #1. What puts something inside of the “if” statement?
 # Having a tab/white space makes something inside of an if statement.
-<<<<<<< HEAD
 if name == "LaRose":
     print("Hi Ms. LaRose")
 else: # happens if condition is false.
     print(f"Hello {name}!")
 
-=======
-if name == "Elizabeth":
-    print("Elizabeth")
-else: 
-        print(f"Hello {name}!")
-#happens if condition is false.
->>>>>>> 0d9360a0195fbc64745ea54fe853d60317c88bf0
 #2. What do if statements do?
 # if statements checks a condition and it it is true, it will do a thing.
 if name == "Ms. LaRose": # <= this is the condition.
@@ -22,17 +14,10 @@ if name == "Ms. LaRose": # <= this is the condition.
 
 #3. What are boolean statements? 
 # A boolean statement is the part of conditional that is either true or false(true or false statement).
-<<<<<<< HEAD
 if name == "LaRose": # <- This is the boolean statement(either true or false).
     print("Hi Ms. LaRose")
 else: # happens if condition os false.
     print(f"Hello {name}!")
-=======
-if name == "Elizabeth": # <- This is the boolean statement(either true or false).
-    print("Elizabeth")
-else: 
-        print(f"Hello {name}!")
->>>>>>> 0d9360a0195fbc64745ea54fe853d60317c88bf0
 
 #4. What do else statements do?
 if name == "LaRose":
@@ -79,15 +64,9 @@ if num < 10:
         print("This prints at 8")
     else:
         if num == 4:
-<<<<<<< HEAD
             print("There are only enough cookies left for me")
         else:
             print("The number is less than 10")
-=======
-            print("There are only enough cookies left for me. . . sorry")
-        else:
-        print("The number is less than 10")
->>>>>>> 0d9360a0195fbc64745ea54fe853d60317c88bf0
 else:
     print("The number is bigger than 10")
 
