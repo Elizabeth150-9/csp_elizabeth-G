@@ -1,5 +1,4 @@
 # Elizabeth Gutierrez, Old Enough in Python
-<<<<<<< HEAD
 vote = int(input("How old are you?:\n"))
 if vote > 18:
     print("You can vote!")
@@ -23,5 +22,3 @@ if school > 4:
     print("You can go to school!")
 elif school < 4:
     print("You cannot go to school.")
-=======
->>>>>>> 0d9360a0195fbc64745ea54fe853d60317c88bf0
