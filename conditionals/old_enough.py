@@ -1,24 +1,21 @@
 # Elizabeth Gutierrez, Old Enough in Python
-vote = int(input("How old are you?:\n"))
-if vote > 18:
+age = int(input("How old are you?:\n"))
+if age > 18:
     print("You can vote!")
-elif vote < 18:
+elif age < 18 or age == 18:
     print("You cannot vote.")
 
-drive = int(input("How old are you?:\n"))
-if drive > 16:
+if age > 16:
     print("You can drive!")
-elif drive < 16:
+elif age < 16 or age == 16:
     print("You cannot drive.")
 
-learners_permit = int(input("How old are you?:\n"))
-if learners_permit > 15:
-    print("You can get your learners permit!")
-elif learners_permit < 15:
-    print("You cannot get your learners permit.")
+if age > 15:
+    print("You can get your permit!")
+elif age < 15 or age == 15:
+    print("You cannot get your permit.")
 
-school = int(input("How old are you?:\n"))
-if school > 4:
+if age > 4:
     print("You can go to school!")
-elif school < 4:
+elif age < 4 or age == 4:
     print("You cannot go to school.")
