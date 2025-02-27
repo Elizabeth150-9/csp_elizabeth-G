@@ -4,6 +4,8 @@ if age > 18:
     print("You can vote!")
 elif age < 18 or age == 18:
     print("You cannot vote.")
+else:
+    print(f"You {vote}.")
 
 if age > 16:
     print("You can drive!")
