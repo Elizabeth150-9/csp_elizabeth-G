@@ -13,12 +13,6 @@ if(age == 18) {
 
 }else if(age > 16 || == 16){
      printf("You cannot drive.\n");
-}else{
-    printf("You can drive!\n");
-}
-
-if(age == 15) {
-    printf("You can get your permit!\n");
 }else if(age < 15){
     printf("You cannot get your permit.\n");
 }else{
