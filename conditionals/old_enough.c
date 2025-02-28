@@ -9,15 +9,9 @@ int main() {
 
 if(age == 18) {
     printf("You can vote!\n");
-}else if(age < 18){
-    printf("You cannot vote.\n");
-}else{
-    printf("You can vote!\n");
 }
 
-if(age == 16) {
-    printf("You can drive!\n");
-}else if(age < 16){
+}else if(age > 16 || == 16){
      printf("You cannot drive.\n");
 }else{
     printf("You can drive!\n");
