@@ -1,3 +1,8 @@
+
+
+
+
+
 <<<<<<< HEAD
 // Elizabeth Gutierrez, Conditionals notes C
 #include <stdio.h>
