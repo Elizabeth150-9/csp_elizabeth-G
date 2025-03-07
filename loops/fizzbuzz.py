@@ -1,12 +1,13 @@
 # Elizabeth Gutierrez, FizzBuzz in Python
-x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50]
-nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50]
-while nums == x:
-    print(x)
-if fizz == {33,12,9,3}:
-    print(fizz)
-if buzz == {50,40,35,25,20,10,5}:
-    print(buzz)
-if fizzbuzz == {45,30,15}:
-    print(fizzbuzz)
-
+x = 0
+nums = int(input("Choose Number: "))
+while x <= nums:
+    if x % 3 == 0 and x % 5 == 0:
+        print("fizzbuzz")
+    elif x % 3 == 0:
+        print("fizz")
+    elif x % 5 == 0:
+        print("buzz")
+    else:
+        print(x)
+    x+= 1
