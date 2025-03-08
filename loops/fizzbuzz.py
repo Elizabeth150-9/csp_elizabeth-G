@@ -1,7 +1,7 @@
 # Elizabeth Gutierrez, FizzBuzz in Python
 x = 0
-nums = int(input("Choose Number: "))
-while x <= nums:
+while x < 51:
+    x=x+1
     if x % 3 == 0 and x % 5 == 0:
         print("fizzbuzz")
     elif x % 3 == 0:
@@ -10,4 +10,3 @@ while x <= nums:
         print("buzz")
     else:
         print(x)
-    x+= 1
