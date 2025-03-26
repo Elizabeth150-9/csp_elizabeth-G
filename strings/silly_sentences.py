@@ -10,20 +10,20 @@
 
 
 
-puzzle = input("To pick 1 a word scramble or riddle,  insert 3 or 4.\n")
-third = ("imklerci\n")
-fourth = input("Maria has five children. Jack, Logan, Sarah, and Lipton. What is the name of the fifth child?\n")
-if puzzle == 3:
+puzzle = input("To pick 1, a word scramble or riddle,  insert 3 or 4.\n")
+third = ("Limerick")
+fourth = ("What")
+option_3 = input("")
+option_4 = input("")
+if option_3 == 3:
     print("imklerci\n")
-elif third == "Limerick":
+elif option_3 == "Limerick":
     print("Correct, you won black eyes!\n")
 else:
-    print("Incorrect, try again...\n")
-if puzzle == 4:
-    print("Maria has five children. Jack, Logan, Sarah, and Lipton. What is the name of the fifth child?\n")
-elif fourth == "What":
+    print("Incorrect, try again.\n")
+if option_4 == 4:
+    print("Maria has five children. Jack, Jacob, Joane, and Jane. What is the name of the fifth child?\n")
+elif option_4 == "What":
     print("Correct, you won green eyes!\n")
 else:
-    print("Incorrect, try again...\n")
-iyes = int(input("You have black eyes!\n"))
-eyes = int(input("You have green eyes!\n"))
+    print("Incorrect, try again.\n")
