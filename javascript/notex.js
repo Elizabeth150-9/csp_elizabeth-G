@@ -40,4 +40,14 @@ function change(){
 function popup(){
     window.prompt("Don't click this. Really!")
 }
+function view(){
+    if(document.getElementById("more").style.display === "block"){
+    document.getElementById("more").style.display = "none"
+    document.getElementById("shw").style.display = "Show more"
+}else{
+    document.getElementById("more").style.display === "block"
+    document.getElementById("shw").style.display = "Show less"
+}
+
+}
     
