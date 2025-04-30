@@ -24,6 +24,9 @@
                     width: 300px;
                     height: 200px;
                 }
+                #ShowHide{
+                    display: none;   
+                }
             </style>
         </head>
         <body>
@@ -39,18 +42,19 @@
             <div>
             <h3>Taking walks with music.</h3>
             <p>I enjoy walking around random places. It's way better to have music, than walking with no sound. I don't have to work about anyone bothering or talking to me. It's calming to walk near the river, or around busy areas. Sometimes I like to take my sister with me, for some company.</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Upper_Provo_River_Utah.jpg">
+            <img id ="walks" onmouseover="view()" onmouseout="resetimage()" src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Upper_Provo_River_Utah.jpg">
+        <div id="img_src">
             <p>Image From: Wikipedia</p>
             </div>
             <div>
             <btn>
-            <div id = "onmousehide()">
-            <button id="shw" onclick="view()">Show more</button>
-            <img id="spotify" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/e0/66/eae0669b-8c6b-45cc-d1da-32c7dd5ecf50/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/1200x630wa.png">
+            <button onclick="ShowHide()">Show or Hide</button>
+            <div id = "showHide">
+            </div>
+            <img id="spotify" onmouseoverShowHide="show" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/e0/66/eae0669b-8c6b-45cc-d1da-32c7dd5ecf50/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/1200x630wa.png">
             <h6>Music I'll never listen to.</h6>
             <p>As you now know, I love listening to my playlists. It sucks once the playlist ends and random songs come on. They either become my favorite, or most hated song. Never will I ever willingly listen to Taylor Swift, Cotton Eye Joe, and just any music like those.</p>
             </btn>
-            </div
             <a href="https://www.downtownprovo.com/"downtownprovo= "_blank">Click here to learn more.</a>
         <ul style = "list-style-type:square">
         <li>Downtown Provo</li>
