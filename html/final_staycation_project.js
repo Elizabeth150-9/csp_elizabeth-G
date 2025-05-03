@@ -8,3 +8,7 @@ function resetimage(){
     img.src = "https://scene7.vailresorts.com/is/image/vailresorts/20220302_PC_Markewitz_089?wid=4000&resMode=sharp2&w=4000&h=2666&fit=constrain,1&dpr=on,2.625";
     document.getElementById("img_src").innerHTML="scene7";
 }
+function showBoth() {
+    let content = document.getElementById("stuff");
+    content.style.display = content.style.display === "none" ? "block" : "none";
+}
