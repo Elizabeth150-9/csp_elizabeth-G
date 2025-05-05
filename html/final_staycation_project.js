@@ -9,6 +9,6 @@ function resetimage(){
     document.getElementById("img_src").innerHTML="scene7";
 }
 function showBoth() {
-    let content = document.getElementById("stuff");
+    let content = document.getElementById("snow");
     content.style.display = content.style.display === "none" ? "block" : "none";
 }

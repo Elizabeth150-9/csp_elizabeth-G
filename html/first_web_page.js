@@ -8,7 +8,7 @@ function view(){
     img.src = "https://upload.wikimedia.org/wikipedia/commons/b/b3/Upper_Provo_River_Utah.jpg";
     document.getElementById("img_src").innerHTML="wikimedia";
 }
-function showBoth() {
+function showBoth(){
     let content = document.getElementById("stuff");
     content.style.display = content.style.display === "none" ? "block" : "none";
 }
